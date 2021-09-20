@@ -2,6 +2,8 @@
     include_once 'header.php';
 ?>
 
+<div id="signup">
+<div id ="main" >
 <div class="container mt-5 ">
 	<div class="row justify-content-md-center">
 		<div class="col col-md-4">
@@ -32,6 +34,8 @@
 			</div>
 		</div>
 	</div>
+</div>
+</div>
 </div>
 <?php
     include_once 'footer.php';    

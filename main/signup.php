@@ -2,7 +2,9 @@
     include_once 'header.php';
 ?>
 
-<div class="container mt-4 ">
+<div id="signup">
+<div id ="main" >
+<div class="container mt-4 " id="content">
 	<div class="row content d-flex justify-content-center">
 		<div class="col col-md-6">
 			<span id="message"></span>
@@ -63,7 +65,9 @@
 			<br />
 		</div>
 	</div>
-</div>    
+</div> 
+</div>
+</div>   
 
 <?php
     include_once 'footer.php';    
