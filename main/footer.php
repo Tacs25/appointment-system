@@ -1,10 +1,10 @@
-
+      <div class="footer">
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
           © 2021 Copyright:
           <a class="text-reset fw-bold" href="../index.php">Asuncion Optical</a>
         </div>
         <!-- Copyright -->
-      </footer>
+      </div>
       </div>
       <!-- Footer -->
       <!--scroll top-->
