@@ -56,7 +56,7 @@
 									<label>Date<span class="text-danger">*</span></label>
                                        
                                         <div class="input-group date" id="datepicker">
-                                            <input type="text" name="book_date" id="book_date" class="form-control" placeholder="MM/DD/YYYY" required />
+                                            <input type="text" name="book_date" id="book_date" class="form-control" placeholder="MM/DD/YYYY" required readonly />
                                             <span class="input-group-append">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-calendar"></i>
@@ -68,7 +68,14 @@
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Time<span class="text-danger">*</span></label>
-									<input type="text" name="book_time" id="book_time" class="form-control"  required  />
+										<div class="input-group date" id="datepicker">
+											<input type="text" name="book_time" id="book_time" class="form-control"  required readonly  />
+											<span class="input-group-append">
+                                                <span class="input-group-text">
+                                                    <i class="fa fa-clock"></i>
+                                                </span>
+                                            </span>
+										</div>
 								</div>
 							</div>
 						</div>
