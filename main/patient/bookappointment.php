@@ -80,9 +80,12 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label>Patient Complete Address<span class="text-danger">*</span></label>
-							<textarea name="patient_address" id="patient_address" class="form-control" required ></textarea>
+							<label>Category<span class="text-danger">*</span></label>
+								<select name="patient_gender" id="patient_gender" class="form-control">
+									<option value="Male"> Eye Check up </option>
+								</select>
 						</div>
+						
 						<div class="form-group d-grid gap-2 col-6 mx-auto">
 							<input type="hidden" name="" value="book_register" />
 							<input type="submit" name="book_button" id="book_button" class="btn btn-primary " value="Book" />
