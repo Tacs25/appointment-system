@@ -55,26 +55,26 @@
 								<div class="form-group">
 									<label>Date<span class="text-danger">*</span></label>
                                        
-                                        <div class="input-group date" id="datepicker">
+										<div class="input-group date" id="datepicker">
                                             <input type="text" name="book_date" id="book_date" class="form-control" placeholder="MM/DD/YYYY" required readonly />
-                                            <span class="input-group-append">
+                                            <div class="input-group-addon input-group-prepend">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-calendar"></i>
                                                 </span>
-                                            </span>
+                                            </div>
                                         </div>
                                 </div>									
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Time<span class="text-danger">*</span></label>
-										<div class="input-group date" id="datepicker">
+										<div class="input-group date" id="datepicker1">
 											<input type="text" name="book_time" id="book_time" class="form-control"  required readonly  />
-											<span class="input-group-append">
+											<div class="input-group-addon input-group-prepend">
                                                 <span class="input-group-text">
                                                     <i class="fa fa-clock"></i>
                                                 </span>
-                                            </span>
+											</div>
 										</div>
 								</div>
 							</div>
@@ -100,13 +100,44 @@
 </div>
 
 </div>
-<script type="text/javascript">
+</body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+	<script src="bootstrap-datetimepicker.min.js"></script>
+
+	<script>
+        $(function () {
+            $.extend(true, $.fn.datetimepicker.defaults, {
+                icons: {
+                    time: 'far fa-clock',
+                    date: 'far fa-calendar',
+                    up: 'fas fa-arrow-up',
+                    down: 'fas fa-arrow-down',
+                    previous: 'fas fa-chevron-left',
+                    next: 'fas fa-chevron-right',
+                    today: 'far fa-calendar-check-o',
+                    clear: 'far fa-trash',
+                    close: 'far fa-times'
+                }
+            });
+        });
+        </script>
+	<script type="text/javascript">
     $(function(){
         
-        $('#datepicker').datepicker({
-        'autoclose' : true 
+        $('#datepicker').datetimepicker({
+        	format: 'YYYY-MM-DD',
+        	ignoreReadonly: true
         });
-        
+
+    $(function () {
+        $('#datepicker1').datetimepicker({
+            format: 'hh:mm a',
+            ignoreReadonly: true
+        });
+});
 }
 );
 </script>
