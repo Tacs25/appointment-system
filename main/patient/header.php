@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
   </head>
-</body>
+<body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -35,3 +35,11 @@
           </div>
         </div>
     </nav>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <!-- Custom Js -->
+    
+</body>
+</html>
