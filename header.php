@@ -44,7 +44,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <li><a class="dropdown-item" href="#">Admin</a></li>
-                  <li><a class="dropdown-item" href="#">Patient</a></li>
+                  <li><a class="dropdown-item" href= "main/patient/profile.php">Patient</a></li>
                   <li><a class="dropdown-item" href="#">Doctor</a></li>
                 </ul>
               </li>

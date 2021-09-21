@@ -11,7 +11,7 @@
 	      		<a class="nav-link" href="profile.php">Profile</a>
 	    	</li>
 	    	<li class="nav-item">
-	      		<a class="nav-link" href="#">Book Appointment</a>
+	      		<a class="nav-link" href="bookappointment.php">Book Appointment</a>
 	    	</li>
 	    	<li class="nav-item">
 	      		<a class="nav-link" href="#">My Appointment</a>

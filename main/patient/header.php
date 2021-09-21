@@ -14,14 +14,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-    
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+  </head>
 </body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="../../index.php" ><img src="../../img/eyel.png" alt="logo" height="50"><span style="color: blue; font-weight: bolder;" >A</span>suncion <span style="color: blue; font-weight: bolder;">O</span>ptical</a>
-            <ul class="navbar-nav mx-auto">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <h4> MY ACCOUNT </h4>
               </li>

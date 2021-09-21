@@ -14,23 +14,23 @@
 					<form method="post" id="patient_register_form" action="includes/signup.inc.php">
 						<div class="form-group">
 							<label>Patient Email Address<span class="text-danger">*</span></label>
-							<input type="text" name="patient_email_address" id="patient_email_address" class="form-control" required autofocus data-parsley-type="email" data-parsley-trigger="keyup" />
+							<input type="text" name="patient_email_address" id="patient_email_address" class="form-control" required />
 						</div>
 						<div class="form-group">
 							<label>Patient Password<span class="text-danger">*</span></label>
-							<input type="password" name="patient_password" id="patient_password" class="form-control" required  data-parsley-trigger="keyup" />
+							<input type="password" name="patient_password" id="patient_password" class="form-control" required  />
 						</div>
 						<div class="row">
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Patient First Name<span class="text-danger">*</span></label>
-									<input type="text" name="patient_first_name" id="patient_first_name" class="form-control" required  data-parsley-trigger="keyup" />
+									<input type="text" name="patient_first_name" id="patient_first_name" class="form-control" required   />
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Patient Last Name<span class="text-danger">*</span></label>
-									<input type="text" name="patient_last_name" id="patient_last_name" class="form-control" required  data-parsley-trigger="keyup" />
+									<input type="text" name="patient_last_name" id="patient_last_name" class="form-control" required   />
 								</div>
 							</div>
 						</div>
@@ -44,11 +44,11 @@
 						</div>
 						<div class="form-group">
 							<label>Patient Contact No.<span class="text-danger">*</span></label>
-							<input type="text" name="patient_phone_no" id="patient_phone_no" class="form-control" required  data-parsley-trigger="keyup" />
+							<input type="text" name="patient_phone_no" id="patient_phone_no" class="form-control" required   />
 						</div>
 						<div class="form-group">
 							<label>Patient Complete Address<span class="text-danger">*</span></label>
-							<textarea name="patient_address" id="patient_address" class="form-control" required data-parsley-trigger="keyup"></textarea>
+							<textarea name="patient_address" id="patient_address" class="form-control" required ></textarea>
 						</div>
 						<div class="form-group text-center">
 							<input type="hidden" name="action" value="patient_register" />
