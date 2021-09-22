@@ -45,12 +45,7 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Patient Date of Birth<span class="text-danger">*</span></label>
-									<input type="text" name="patient_date_of_birth" id="patient_date_of_birth" class="form-control" required  data-parsley-trigger="keyup" readonly />
-								</div>
-							</div>
+							
 							<div class="col-md-6">
 								<div class="form-group">
 									<label>Patient Gender<span class="text-danger">*</span></label>
@@ -69,18 +64,7 @@
 									<input type="text" name="patient_phone_no" id="patient_phone_no" class="form-control" required  data-parsley-trigger="keyup" />
 								</div>
 							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label>Patient Maritial Status<span class="text-danger">*</span></label>
-									<select name="patient_maritial_status" id="patient_maritial_status" class="form-control">
-										<option value="Single">Single</option>
-										<option value="Married">Married</option>
-										<option value="Seperated">Seperated</option>
-										<option value="Divorced">Divorced</option>
-										<option value="Widowed">Widowed</option>
-									</select>
-								</div>
-							</div>
+							
 						</div>
 						<div class="form-group">
 							<label>Patient Complete Address<span class="text-danger">*</span></label>
@@ -104,11 +88,9 @@
 				<div class="card-header">
 					<div class="row">
 						<div class="col-md-6">
-                            <h5 class="card-title"> User Information </h5>
+                            <h5 class="card-title "> User Information </h5>
 						</div>
-						<div class="col-md-6 text-right">
-							<a href="profile.php?action=edit" class="btn btn-secondary btn-sm">Edit</a>
-						</div>
+						
 					</div>
 				</div>
 				<div class="card-body">
@@ -137,7 +119,11 @@
 							<th class="text-right" width="40%">Gender :</th>
 							<td></td>
 						</tr>
-					</table>					
+						
+					</table>
+					<div class="col-12 text-right">
+							<a href="profile.php?action=edit" class="btn btn-secondary btn-sm ">Edit</a>
+						</div>					
 				</div>
 			</div>
         </div>
