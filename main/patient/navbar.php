@@ -17,11 +17,30 @@
 	      		<a class="nav-link" href="bookappointment.php">Book Appointment</a>
 	    	</li>
 	    	<li class="nav-item">
-	      		<a class="nav-link" href="#">My Appointment</a>
+	      		<a class="nav-link" href="myappointment.php">My Appointment</a>
 	    	</li>
 	    	<li class="nav-item">
-	      		<a class="nav-link" href="#">Logout</a>
+	      		<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#logoutModal">Logout</a>
 	    	</li>
+			
+			<!--logout modal-->
+			<div class="modal fade" tabindex="-1" id="logoutModal">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Ready to sign out?</h5>
+							<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+						</div>
+					<div class="modal-body">
+						<p>Just click <strong>'Logout' </strong>below if you are ready to end your current session.</p>
+					</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+							<a href="logout.php" type="button" class="btn btn-primary">Logout</a>
+						</div>
+						
+				</div>
+			</div>
 	  	</ul>
 	</div>
 

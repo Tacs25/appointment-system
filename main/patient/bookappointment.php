@@ -72,7 +72,7 @@
 											<input type="text" name="book_time" id="book_time" class="form-control"  required readonly  />
 											<div class="input-group-addon input-group-prepend">
                                                 <span class="input-group-text">
-                                                    <i class="fa fa-clock"></i>
+                                                    <i class="fas fa-clock"></i>
                                                 </span>
 											</div>
 										</div>
