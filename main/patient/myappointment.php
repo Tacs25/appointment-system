@@ -16,6 +16,7 @@
 		      			<thead>
 			      			<tr>
 			      				<th>Appointment No.</th>
+								<th>Branch</th>
 			      				<th>Doctor Name</th>
 			      				<th>Appointment Date</th>
 			      				<th>Appointment Time</th>
