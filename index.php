@@ -225,15 +225,15 @@
           <!-- Left -->
 
           <!-- Right -->
-          <div>
+          <div data-aos="zoom-in">
             
-            <i class="fas fa-envelope me-2" data-aos="zoom-in"></i>
+            <i class="fas fa-envelope me-2" ></i>
             annabelleasuncion010260@gmail.com &nbsp;
             
             <a href="https://www.facebook.com/Asuncion-Optical-103482405192687/" target="_blank" class="me-4 text-reset" data-aos="zoom-in">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="" class="me-4 text-reset" data-aos="zoom-in">
+            <a href="" class="me-4 text-reset" >
               <i class="fab fa-twitter"></i>
             </a>
            
