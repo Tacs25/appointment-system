@@ -357,8 +357,8 @@
     <script>
       
       AOS.init({
-        duration:2500,
-        delay:500
+        duration:2000,
+        delay:400
       });
     </script>
 </body>
