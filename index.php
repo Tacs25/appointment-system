@@ -1,6 +1,60 @@
-<?php
-  include_once 'header.php';
-?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Asuncion Optical </title>
+
+    <!-- Custom CSS only -->
+    <link rel="stylesheet" href="css/style.css" >
+    <!-- aos css only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+    
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.php" ><img src="img/eyel.png" alt="logo" height="50"><span style="color: blue; font-weight: bolder;" >A</span>suncion <span style="color: blue; font-weight: bolder;">O</span>ptical</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  User Login
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Admin</a></li>
+                  <li><a class="dropdown-item" href= "main/patient/profile.php">Patient</a></li>
+                  <li><a class="dropdown-item" href="#">Doctor</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
       <!-- Carousel-->
       <div id="home">
@@ -46,16 +100,16 @@
 
       <!-- About -->
       <div id="about" class="container mt-5 pb-5">
-        <div class="post-heading text-center">
+        <div class="post-heading text-center" data-aos="zoom-in">
           <h3 class="display-4 font-weight-bold">About Us</h3>
           <hr class="w-50 mx-auto pb-1">
         </div>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-12">
+          <div class="col-lg-6 col-md-6 col-12" data-aos="zoom-in">
             <img src="img/d.jpg" class="img-fluid mt-3">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-12 mt-3">
+          <div class="col-lg-6 col-md-6 col-12 mt-3" data-aos="zoom-in">
             <h2>We care about your eyes</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -88,7 +142,7 @@
       </div>
 
       <!-- Services -->
-      <div id="services" class="container mt-1 mb-5">
+      <div id="services" class="container mt-1 mb-5" data-aos="zoom-in">
         <div class="post-heading text-center">
           <h3 class="display-4 font-weight-bold">Our Services</h3>
           <hr class="w-50 mx-auto pb-1">
@@ -97,10 +151,10 @@
 
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12">
-            <img src="img/fc.jpg" class="img-fluid mt-2">
+            <img src="img/fc.jpg" class="img-fluid mt-2" data-aos="zoom-in">
           </div>
 
-          <div class="col-lg-6 col-md-6 col-12 mt-3">
+          <div class="col-lg-6 col-md-6 col-12 mt-3" data-aos="zoom-in">
             <h2>Eye Checkup</h2>
             <hr>
             <p>Eye check-up is when an optometrist runs various tests to evaluate how healthy your eyes are. The tests you should expect during an eye exam are eye muscle test, visual acuity test, refraction assessment, and slit-lamp examination. We suggest to have your eyes checked every 1-2 years. Moreover, it can also detect other non-related eye diseases such as diabetes, high blood pressure, cancer, multiple sclerosis and rheumatoid arthritis, according to Reader’s Digest. Eye check-up is not only important for your vision but for your overall health and well-being as well.
@@ -110,20 +164,20 @@
         </div>
 
         <!--btn create account-->
-        <div class="d-grid gap-2 col-6 mx-auto pt-5">
+        <div class="d-grid gap-2 col-6 mx-auto pt-5" data-aos="zoom-in">
           <a class="btn btn-dark" type="button" href="main/signup.php">Create an account</a>
         </div>
       </div>
 
       <!-- testimonials -->
-      <div id="services" class="container mt-1 mb-5">
+      <div id="services" class="container mt-1 mb-5" data-aos="zoom-in">
         <div class="post-heading text-center">
           <h3 class="display-4 font-weight-bold">Testimonials</h3>
           <hr class="w-50 mx-auto pb-1">
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2">
+          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2" data-aos="zoom-in">
             <div class="card">
               <div class="card-body">
                 <p class="card-text" style="text-align: center;"><em>"First time ko magpa check-up and sakto na sa Asuncion Optical ako nagpa check up. sobrang ganda ng Service nila, and very Approchable ng doctor."</em></p>
@@ -131,7 +185,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2">
+          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2" data-aos="zoom-in">
             <div class="card">
               <div class="card-body">
                 <p class="card-text" style="text-align: center;"><em>"Napakabait ng mga doctor, and malinis ang clinic. Sasabihin nila kung ano yung mga dapat iwasan para ma correct yung eyesight mo."</em></p>
@@ -139,7 +193,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2">
+          <div class="col-lg-4 col-md-6 col-12 mt-3 pb-2" data-aos="zoom-in">
             <div class="card">
               <div class="card-body">
                 <p class="card-text" style="text-align: center;"><em>"Yung Assistant ni doctor is very Approachable and Maalaga sa mga patient. and si doctor naman sobrang bait, maganda din mga frames."</em></p>
@@ -151,12 +205,161 @@
     </div>
       
       <!--map-->
-      <section id="map" class="pl-4 pr-4">
+      <section id="map" class="pl-4 pr-4" data-aos="zoom-in">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3863.597465277945!2d120.92281264876112!3d14.450346589848722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d29c2e9d1adf%3A0x2c342a9330e00f5!2sAsuncion%20Optical!5e0!3m2!1sen!2sph!4v1631771831096!5m2!1sen!2sph" width="100%" height="400" style="border: 2px; " allowfullscreen="" loading="lazy"></iframe>
       </section>  
         
        <!--footer-->
 
-<?php
-  include_once 'footer.php'
-?>
+       <div id="contact" class="mt-2">
+      <footer class="text-center text-lg-start bg-light text-muted" >
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+          data-aos="zoom-in">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block" data-aos="zoom-in">
+            <span style="font-weight: bolder;">Get connected with us on social networks:</span>
+          </div>
+          
+          <!-- Left -->
+
+          <!-- Right -->
+          <div>
+            
+            <i class="fas fa-envelope me-2" data-aos="zoom-in"></i>
+            annabelleasuncion010260@gmail.com &nbsp;
+            
+            <a href="https://www.facebook.com/Asuncion-Optical-103482405192687/" target="_blank" class="me-4 text-reset" data-aos="zoom-in">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset" data-aos="zoom-in">
+              <i class="fab fa-twitter"></i>
+            </a>
+           
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5" data-aos="zoom-in">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-2 mx-auto mb-4" data-aos="zoom-in">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Asuncion Optical
+                </h6>
+                <p>
+                  We care about your eyes. We have trusted optometrist here in the Philippines
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Open hours
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset"> MON-SUN 10:00 AM  - 9:00 PM </a>
+                </p>
+                
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  User login
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Admin</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Doctor</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Patients</a>
+                </p>
+                <p>
+                  <a href="main/signup.php" class="text-reset">Create an Account</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Branches
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Waltermart, Lotus Mall, Imus City, Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Waltermart, Carmona Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Trece Marites City, Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Zapote (Centre, Bacoor) Cavite</p>
+                <p><i class="fas fa-home me-3"></i> 54 Balsahan Binakayan, Kawit Cavite</p>
+                <p><i class="fas fa-home me-3"></i> The District, Ayala Mall, Dasmariñas Cavite</p>
+                <p><i class="fas fa-home me-3"></i> KingHome Shopping mall, Bucandala 2, Imus Cavites</p>
+              </div>
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+
+                
+                <p><i class="fas fa-phone me-3"></i> (046) 683-8694 </p>
+                <p><i class="fas fa-phone me-3"></i> (046) 482-0239 </p>
+                <p><i class="fas fa-phone me-3"></i> (046) 864-0049 </p>
+                <p><i class="fas fa-phone me-3"></i> (046) 417-1423 </p>
+                <p><i class="fas fa-phone me-3"></i> (046) 852-5194 </p>
+                <p><i class="fas fa-phone me-3"></i> (046) 683-8696 </p>
+              </div>
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="index.php">Asuncion Optical</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      </div>
+      <!-- Footer -->
+      <!--scroll top-->
+      <button id="topbtn"><i class="fas fa-arrow-circle-up"></i></button>
+      <!--scroll top-->
+
+
+      
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+    <!-- Custom Js -->
+    <script src="js/script.js"  text="text/javascript"></script>
+
+    <!--aos js link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      
+      AOS.init({
+        duration:1000,
+        delay:400
+      });
+    </script>
+</body>
+</html>
