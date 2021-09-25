@@ -225,7 +225,7 @@
           <!-- Left -->
 
           <!-- Right -->
-          <div data-aos="zoom-in">
+          <div>
             
             <i class="fas fa-envelope me-2" ></i>
             annabelleasuncion010260@gmail.com &nbsp;
