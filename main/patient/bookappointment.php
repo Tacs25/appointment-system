@@ -7,6 +7,9 @@
 
     <div class="container mt-4 " id="content">
 	<div class="row content d-flex justify-content-center">
+		<div class="alert alert-warning" role="alert">
+  			<b>Reminder: Book an appointment 10:00 AM - 8:00 PM ONLY!!!! </b>
+		</div>
 		<div class="col col-md-6">
 			<span id="message"></span>
 			<div class="card">
