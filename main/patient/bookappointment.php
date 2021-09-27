@@ -8,7 +8,14 @@
     <div class="container mt-4 " id="content">
 	<div class="row content d-flex justify-content-center">
 		<div class="alert alert-warning" role="alert">
-  			<b>Reminder: Book an appointment 10:00 AM - 8:00 PM ONLY!!!! </b>
+  				<b>Reminder: Available time for every branch </b> <br>
+				 Waltermart, Lotus Mall, Imus City, Cavite - DAILY 9:00 AM  - 8:00 PM <br>
+				 Waltermart, Carmona Cavite - DAILY 9:00 AM  - 9:00 PM <br>
+				 Trece Marites City, Cavite - DAILY 9:00 AM  - 6:30 PM <br>
+				 Zapote (Centre, Bacoor) Cavite - DAILY 10:00 AM  - 7:00 PM <br>
+				 54 Balsahan Binakayan, Kawit Cavite - DAILY 10:00 AM  - 9:00 PM <br>
+				 The District, Ayala Mall, Dasmariñas Cavite - DAILY 10:00 AM  - 9:00 PM <br>
+			
 		</div>
 		<div class="col col-md-6">
 			<span id="message"></span>
