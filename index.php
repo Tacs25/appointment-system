@@ -267,17 +267,56 @@
               <!-- Grid column -->
 
               <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Branches
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Waltermart, Lotus Mall, Imus City, Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Waltermart, Carmona Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Trece Marites City, Cavite</p>
+                <p><i class="fas fa-home me-3"></i> Zapote (Centre, Bacoor) Cavite</p>
+                <p><i class="fas fa-home me-3"></i> 54 Balsahan Binakayan, Kawit Cavite</p>
+                <p><i class="fas fa-home me-3"></i> The District, Ayala Mall, Dasmariñas Cavite</p>
+                
+              </div>
+
+              <!-- Grid column -->
+
+              <!-- Grid column -->
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="zoom-in">
                 <!-- Links -->
                 <h6 class="text-uppercase fw-bold mb-4">
                   Open hours
                 </h6>
                 <p>
-                  <a href="#!" class="text-reset"> MON-SUN 10:00 AM  - 9:00 PM </a>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 9:00 AM  - 8:00 PM  </p>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 9:00 AM  - 9:00 PM  </p>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 9:00 AM  - 6:30 PM  </p>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 10:00 AM  - 7:00 PM </p>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 10:00 AM  - 9:00 PM  </p>
+                  <p><i class="fas fa-calendar me-3"></i> DAILY 10:00 AM  - 9:00 PM  </p>
+                  
                 </p>
                 
               </div>
               <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact
+                </h6>
+
+                
+                <p><i class="fas fa-phone me-3"></i> (046) 683-8694 </p> 
+                <p><i class="fas fa-phone me-3"></i> (046) 482-0239 </p> 
+                <p><i class="fas fa-phone me-3"></i> (046) 864-0049 </p> 
+                <p><i class="fas fa-phone me-3"></i> (046) 417-1423 </p> 
+                <p><i class="fas fa-phone me-3"></i> (046) 852-5194 </p> 
+                <p><i class="fas fa-phone me-3"></i> (046) 683-8696 </p> 
+              </div>
 
               <!-- Grid column -->
               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4" data-aos="zoom-in">
@@ -297,38 +336,6 @@
                 <p>
                   <a href="main/signup.php" class="text-reset">Create an Account</a>
                 </p>
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Branches
-                </h6>
-                <p><i class="fas fa-home me-3"></i> Waltermart, Lotus Mall, Imus City, Cavite</p>
-                <p><i class="fas fa-home me-3"></i> Waltermart, Carmona Cavite</p>
-                <p><i class="fas fa-home me-3"></i> Trece Marites City, Cavite</p>
-                <p><i class="fas fa-home me-3"></i> Zapote (Centre, Bacoor) Cavite</p>
-                <p><i class="fas fa-home me-3"></i> 54 Balsahan Binakayan, Kawit Cavite</p>
-                <p><i class="fas fa-home me-3"></i> The District, Ayala Mall, Dasmariñas Cavite</p>
-                <p><i class="fas fa-home me-3"></i> KingHome Shopping mall, Bucandala 2, Imus Cavites</p>
-              </div>
-
-              <!-- Grid column -->
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" data-aos="zoom-in">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Contact
-                </h6>
-
-                
-                <p><i class="fas fa-phone me-3"></i> (046) 683-8694 </p>
-                <p><i class="fas fa-phone me-3"></i> (046) 482-0239 </p>
-                <p><i class="fas fa-phone me-3"></i> (046) 864-0049 </p>
-                <p><i class="fas fa-phone me-3"></i> (046) 417-1423 </p>
-                <p><i class="fas fa-phone me-3"></i> (046) 852-5194 </p>
-                <p><i class="fas fa-phone me-3"></i> (046) 683-8696 </p>
               </div>
             </div>
             <!-- Grid row -->
