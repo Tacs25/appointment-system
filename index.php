@@ -106,17 +106,18 @@
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 col-12" data-aos="zoom-in">
-            <img src="img/d.jpg" class="img-fluid mt-3">
+            <img src="img/ao.jpg" class="img-fluid mt-3">
           </div>
 
           <div class="col-lg-6 col-md-6 col-12 mt-3" data-aos="zoom-in">
             <h2>We care about your eyes</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <p>Asuncion Optical was founded and owned by Anabelle Asuncion. She graduated from Centro Escolar University on 1980 with a doctoral degree for Optometry. Months after she graduated, shhe established her first clinic in Makati named Asuncion Polyclinic. 
             </p>
             <button type="button w-50" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
               KNOW MORE
             </button>
+          </div>
 
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -127,7 +128,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Several years after, Dr. Anabelle Asuncion resided in Cavite for good so she decided to move her clinic in Trece Marterez Cavite. With her expertise in the field of Optometry and vast experience in terms of Optical services, the clinic has expanded to 7 branches within Cavite.</p>
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -160,6 +161,12 @@
             <p>Eye check-up is when an optometrist runs various tests to evaluate how healthy your eyes are. The tests you should expect during an eye exam are eye muscle test, visual acuity test, refraction assessment, and slit-lamp examination. We suggest to have your eyes checked every 1-2 years. Moreover, it can also detect other non-related eye diseases such as diabetes, high blood pressure, cancer, multiple sclerosis and rheumatoid arthritis, according to Reader’s Digest. Eye check-up is not only important for your vision but for your overall health and well-being as well.
             </p>
             
+          </div>
+        </div>
+
+        <div  class="container mt-5 mb-1" data-aos="zoom-in">
+          <div class="post-heading text-center">
+            <h3 class="display-5 font-weight-bold"> Create Account to book an Appointment </h3>
           </div>
         </div>
 
